@@ -16,10 +16,10 @@ import (
 	rewardtypes "github.com/tendermint/spn/x/reward/types"
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"github.com/ignite/cli/ignite/pkg/cosmosaccount"
-	"github.com/ignite/cli/ignite/pkg/cosmosclient"
-	"github.com/ignite/cli/ignite/pkg/events"
-	"github.com/ignite/cli/ignite/pkg/xtime"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosaccount"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosclient"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/events"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xtime"
 )
 
 //go:generate mockery --name CosmosClient --case underscore

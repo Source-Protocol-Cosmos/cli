@@ -8,7 +8,7 @@ import (
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	chaincmdrunner "github.com/ignite/cli/ignite/pkg/chaincmd/runner"
+	chaincmdrunner "github.com/Source-Protocol-Cosmos/cli/ignite/pkg/chaincmd/runner"
 )
 
 const (

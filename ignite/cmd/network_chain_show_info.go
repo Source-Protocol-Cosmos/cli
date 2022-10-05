@@ -3,11 +3,11 @@ package ignitecmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/ignite/cli/ignite/pkg/cliui"
-	"github.com/ignite/cli/ignite/pkg/cosmosutil"
-	"github.com/ignite/cli/ignite/pkg/yaml"
-	"github.com/ignite/cli/ignite/services/network"
-	"github.com/ignite/cli/ignite/services/network/networktypes"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosutil"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/yaml"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networktypes"
 )
 
 func newNetworkChainShowInfo() *cobra.Command {

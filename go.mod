@@ -1,4 +1,4 @@
-module github.com/ignite/cli
+module github.com/Source-Protocol-Cosmos/cli
 
 go 1.18
 

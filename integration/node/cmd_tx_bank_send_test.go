@@ -10,13 +10,13 @@ import (
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ignite/cli/ignite/chainconfig"
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	"github.com/ignite/cli/ignite/pkg/cosmosaccount"
-	"github.com/ignite/cli/ignite/pkg/cosmosclient"
-	"github.com/ignite/cli/ignite/pkg/randstr"
-	"github.com/ignite/cli/ignite/pkg/xurl"
-	envtest "github.com/ignite/cli/integration"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/chainconfig"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosaccount"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosclient"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/randstr"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xurl"
+	envtest "github.com/Source-Protocol-Cosmos/cli/integration"
 )
 
 func TestNodeTxBankSend(t *testing.T) {

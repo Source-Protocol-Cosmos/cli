@@ -5,8 +5,8 @@ import (
 
     svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 	"<%= ModulePath %>/app"
-	"github.com/ignite/cli/ignite/pkg/cosmoscmd"
-	"github.com/ignite/cli/ignite/pkg/xstrings"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmoscmd"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xstrings"
 )
 
 func main() {

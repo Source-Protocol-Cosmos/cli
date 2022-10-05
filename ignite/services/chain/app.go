@@ -3,8 +3,8 @@ package chain
 import (
 	"path/filepath"
 
-	"github.com/ignite/cli/ignite/pkg/gomodulepath"
-	"github.com/ignite/cli/ignite/pkg/xstrings"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gomodulepath"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xstrings"
 )
 
 // App keeps info about chain.

@@ -11,16 +11,16 @@ import (
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing"
 
-	sperrors "github.com/ignite/cli/ignite/errors"
-	"github.com/ignite/cli/ignite/pkg/cache"
-	"github.com/ignite/cli/ignite/pkg/chaincmd"
-	"github.com/ignite/cli/ignite/pkg/checksum"
-	"github.com/ignite/cli/ignite/pkg/cosmosaccount"
-	"github.com/ignite/cli/ignite/pkg/cosmosver"
-	"github.com/ignite/cli/ignite/pkg/events"
-	"github.com/ignite/cli/ignite/pkg/gitpod"
-	"github.com/ignite/cli/ignite/services/chain"
-	"github.com/ignite/cli/ignite/services/network/networktypes"
+	sperrors "github.com/Source-Protocol-Cosmos/cli/ignite/errors"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cache"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/chaincmd"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/checksum"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosaccount"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosver"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/events"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gitpod"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/chain"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networktypes"
 )
 
 // Chain represents a network blockchain and lets you interact with its source code and binary.

@@ -11,8 +11,8 @@ import (
 
 	"github.com/imdario/mergo"
 
-	"github.com/ignite/cli/ignite/pkg/cosmosanalysis/module"
-	"github.com/ignite/cli/ignite/pkg/gomodulepath"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosanalysis/module"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gomodulepath"
 )
 
 type vuexGenerator struct {

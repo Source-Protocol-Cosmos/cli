@@ -1,6 +1,6 @@
 package chaincmd
 
-import "github.com/ignite/cli/ignite/pkg/cmdrunner/step"
+import "github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
 
 const (
 	commandConfig     = "config"

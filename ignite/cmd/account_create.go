@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ignite/cli/ignite/pkg/cosmosaccount"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosaccount"
 )
 
 func NewAccountCreate() *cobra.Command {

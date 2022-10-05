@@ -1,8 +1,8 @@
 package typed
 
 import (
-	"github.com/ignite/cli/ignite/pkg/multiformatname"
-	"github.com/ignite/cli/ignite/templates/field"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/multiformatname"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/field"
 )
 
 // Options ...

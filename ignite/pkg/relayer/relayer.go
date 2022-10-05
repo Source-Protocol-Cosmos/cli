@@ -12,12 +12,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/ignite/cli/ignite/pkg/cosmosaccount"
-	"github.com/ignite/cli/ignite/pkg/cosmosclient"
-	"github.com/ignite/cli/ignite/pkg/ctxticker"
-	tsrelayer "github.com/ignite/cli/ignite/pkg/nodetime/programs/ts-relayer"
-	relayerconf "github.com/ignite/cli/ignite/pkg/relayer/config"
-	"github.com/ignite/cli/ignite/pkg/xurl"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosaccount"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosclient"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/ctxticker"
+	tsrelayer "github.com/Source-Protocol-Cosmos/cli/ignite/pkg/nodetime/programs/ts-relayer"
+	relayerconf "github.com/Source-Protocol-Cosmos/cli/ignite/pkg/relayer/config"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xurl"
 )
 
 const (

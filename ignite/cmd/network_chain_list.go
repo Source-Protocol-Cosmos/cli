@@ -5,10 +5,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ignite/cli/ignite/pkg/cliui"
-	"github.com/ignite/cli/ignite/pkg/cliui/entrywriter"
-	"github.com/ignite/cli/ignite/services/network"
-	"github.com/ignite/cli/ignite/services/network/networktypes"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui/entrywriter"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networktypes"
 )
 
 var LaunchSummaryHeader = []string{"launch ID", "chain ID", "source", "campaign ID", "network", "reward"}

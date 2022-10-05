@@ -14,10 +14,10 @@ import (
 	"github.com/tendermint/tendermint/p2p"
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"github.com/ignite/cli/ignite/pkg/cosmosaccount"
-	"github.com/ignite/cli/ignite/pkg/cosmosclient"
-	"github.com/ignite/cli/ignite/pkg/cosmosclient/mocks"
-	"github.com/ignite/cli/ignite/pkg/cosmosfaucet"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosaccount"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosclient"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosclient/mocks"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosfaucet"
 )
 
 //go:generate mockery --srcpkg github.com/tendermint/tendermint/rpc/client/ --name Client --structname RPCClient --filename rpclient.go --with-expecter

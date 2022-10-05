@@ -3,9 +3,9 @@ package plushhelpers
 import (
 	"github.com/gobuffalo/plush"
 
-	"github.com/ignite/cli/ignite/pkg/xstrings"
-	"github.com/ignite/cli/ignite/templates/field"
-	"github.com/ignite/cli/ignite/templates/field/datatype"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xstrings"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/field"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/field/datatype"
 )
 
 // ExtendPlushContext sets available field helpers on the provided context.

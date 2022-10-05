@@ -10,8 +10,8 @@ import (
 	"github.com/gobuffalo/logger"
 	"github.com/gobuffalo/packd"
 
-	"github.com/ignite/cli/ignite/pkg/placeholder"
-	"github.com/ignite/cli/ignite/pkg/validation"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/placeholder"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/validation"
 )
 
 var _ validation.Error = (*dryRunError)(nil)

@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ignite/cli/ignite/pkg/cosmosanalysis/module"
-	"github.com/ignite/cli/ignite/pkg/protoanalysis"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosanalysis/module"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/protoanalysis"
 )
 
 func TestTypescriptModulePath(t *testing.T) {

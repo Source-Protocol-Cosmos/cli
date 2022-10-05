@@ -6,18 +6,18 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/ignite/cli/ignite/pkg/cliui/icons"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui/icons"
 
 	"github.com/pkg/errors"
 	"github.com/rdegges/go-ipify"
 	"github.com/spf13/cobra"
 
-	"github.com/ignite/cli/ignite/pkg/cliui"
-	"github.com/ignite/cli/ignite/pkg/cliui/cliquiz"
-	"github.com/ignite/cli/ignite/pkg/gitpod"
-	"github.com/ignite/cli/ignite/pkg/xchisel"
-	"github.com/ignite/cli/ignite/services/network"
-	"github.com/ignite/cli/ignite/services/network/networkchain"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui/cliquiz"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gitpod"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xchisel"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networkchain"
 )
 
 const (

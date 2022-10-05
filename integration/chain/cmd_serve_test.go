@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	"github.com/ignite/cli/ignite/pkg/xos"
-	envtest "github.com/ignite/cli/integration"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xos"
+	envtest "github.com/Source-Protocol-Cosmos/cli/integration"
 )
 
 func TestServeStargateWithWasm(t *testing.T) {

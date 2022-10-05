@@ -3,7 +3,7 @@ package ignitecmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/ignite/cli/ignite/services/scaffolder"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/scaffolder"
 )
 
 const (

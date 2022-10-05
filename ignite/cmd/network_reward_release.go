@@ -8,15 +8,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ignite/cli/ignite/pkg/cliui"
-	"github.com/ignite/cli/ignite/pkg/cliui/icons"
-	"github.com/ignite/cli/ignite/pkg/cosmosaccount"
-	"github.com/ignite/cli/ignite/pkg/cosmosclient"
-	"github.com/ignite/cli/ignite/pkg/relayer"
-	relayerconf "github.com/ignite/cli/ignite/pkg/relayer/config"
-	"github.com/ignite/cli/ignite/pkg/xurl"
-	"github.com/ignite/cli/ignite/services/network"
-	"github.com/ignite/cli/ignite/services/network/networktypes"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui/icons"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosaccount"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosclient"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/relayer"
+	relayerconf "github.com/Source-Protocol-Cosmos/cli/ignite/pkg/relayer/config"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xurl"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networktypes"
 )
 
 const (

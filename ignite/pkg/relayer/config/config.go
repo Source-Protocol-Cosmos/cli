@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ignite/cli/ignite/pkg/confile"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/confile"
 )
 
 const SupportVersion = "2"

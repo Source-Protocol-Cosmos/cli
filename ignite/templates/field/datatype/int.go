@@ -3,7 +3,7 @@ package datatype
 import (
 	"fmt"
 
-	"github.com/ignite/cli/ignite/pkg/multiformatname"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/multiformatname"
 )
 
 var (

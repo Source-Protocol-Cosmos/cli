@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ignite/cli/ignite/pkg/protoanalysis"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/protoanalysis"
 )
 
 const gogoProtoFile = "gogoproto/gogo.proto"

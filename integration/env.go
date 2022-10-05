@@ -15,11 +15,11 @@ import (
 	"github.com/cenkalti/backoff"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ignite/cli/ignite/chainconfig"
-	"github.com/ignite/cli/ignite/pkg/cosmosfaucet"
-	"github.com/ignite/cli/ignite/pkg/httpstatuschecker"
-	"github.com/ignite/cli/ignite/pkg/xexec"
-	"github.com/ignite/cli/ignite/pkg/xurl"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/chainconfig"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosfaucet"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/httpstatuschecker"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xexec"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xurl"
 )
 
 const (

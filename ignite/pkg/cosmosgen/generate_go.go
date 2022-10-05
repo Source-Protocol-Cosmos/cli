@@ -7,8 +7,8 @@ import (
 	"github.com/otiai10/copy"
 	"github.com/pkg/errors"
 
-	"github.com/ignite/cli/ignite/pkg/protoanalysis"
-	"github.com/ignite/cli/ignite/pkg/protoc"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/protoanalysis"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/protoc"
 )
 
 var goOuts = []string{

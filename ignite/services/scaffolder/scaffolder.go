@@ -7,17 +7,17 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ignite/cli/ignite/chainconfig"
-	sperrors "github.com/ignite/cli/ignite/errors"
-	"github.com/ignite/cli/ignite/pkg/cache"
-	"github.com/ignite/cli/ignite/pkg/cmdrunner"
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	"github.com/ignite/cli/ignite/pkg/cosmosanalysis"
-	"github.com/ignite/cli/ignite/pkg/cosmosgen"
-	"github.com/ignite/cli/ignite/pkg/cosmosver"
-	"github.com/ignite/cli/ignite/pkg/gocmd"
-	"github.com/ignite/cli/ignite/pkg/gomodule"
-	"github.com/ignite/cli/ignite/pkg/gomodulepath"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/chainconfig"
+	sperrors "github.com/Source-Protocol-Cosmos/cli/ignite/errors"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cache"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosanalysis"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosgen"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosver"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gocmd"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gomodule"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gomodulepath"
 )
 
 // Scaffolder is Ignite CLI app scaffolder.

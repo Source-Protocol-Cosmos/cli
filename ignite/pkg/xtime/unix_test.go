@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignite/cli/ignite/pkg/xtime"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xtime"
 
 	"github.com/stretchr/testify/require"
 )

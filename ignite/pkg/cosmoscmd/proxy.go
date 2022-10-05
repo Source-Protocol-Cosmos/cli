@@ -8,11 +8,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	"github.com/spf13/cobra"
 
-	"github.com/ignite/cli/ignite/pkg/cosmosutil"
-	"github.com/ignite/cli/ignite/pkg/ctxticker"
-	"github.com/ignite/cli/ignite/pkg/gitpod"
-	"github.com/ignite/cli/ignite/pkg/xchisel"
-	"github.com/ignite/cli/ignite/services/network/networkchain"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosutil"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/ctxticker"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gitpod"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xchisel"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networkchain"
 )
 
 const TunnelRerunDelay = 5 * time.Second

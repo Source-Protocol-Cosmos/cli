@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ignite/cli/ignite/pkg/nodetime"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/nodetime"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 	"github.com/goccy/go-yaml"
 	"github.com/imdario/mergo"
 
-	"github.com/ignite/cli/ignite/pkg/xfilepath"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xfilepath"
 )
 
 var (
@@ -24,7 +24,7 @@ var (
 // ErrCouldntLocateConfig returned when config.yml cannot be found in the source code.
 var ErrCouldntLocateConfig = errors.New(
 	"could not locate a config.yml in your chain. please follow the link for" +
-		"how-to: https://github.com/ignite/cli/blob/develop/docs/configure/index.md")
+		"how-to: https://github.com/Source-Protocol-Cosmos/cli/blob/develop/docs/configure/index.md")
 
 // DefaultConf holds default configuration.
 var DefaultConf = Config{

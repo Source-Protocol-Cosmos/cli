@@ -3,8 +3,8 @@ package chain
 import (
 	"context"
 
-	"github.com/ignite/cli/ignite/chainconfig"
-	chaincmdrunner "github.com/ignite/cli/ignite/pkg/chaincmd/runner"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/chainconfig"
+	chaincmdrunner "github.com/Source-Protocol-Cosmos/cli/ignite/pkg/chaincmd/runner"
 )
 
 // TODO omit -cli log messages for Stargate.

@@ -5,12 +5,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ignite/cli/ignite/pkg/cliui"
-	"github.com/ignite/cli/ignite/pkg/cliui/colors"
-	"github.com/ignite/cli/ignite/pkg/cliui/icons"
-	"github.com/ignite/cli/ignite/pkg/goenv"
-	"github.com/ignite/cli/ignite/services/network"
-	"github.com/ignite/cli/ignite/services/network/networkchain"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui/colors"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui/icons"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/goenv"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networkchain"
 )
 
 // NewNetworkChainInstall returns a new command to install a chain's binary by the launch id.

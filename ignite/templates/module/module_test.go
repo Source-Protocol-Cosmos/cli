@@ -21,7 +21,7 @@ func TestProtoPackageName(t *testing.T) {
 		},
 		{
 			name:   "path",
-			app:    "ignite/cli",
+			app:    "Source-Protocol-Cosmos/cli",
 			module: "test",
 			want:   "ignite.cli.test",
 		},
@@ -33,13 +33,13 @@ func TestProtoPackageName(t *testing.T) {
 		},
 		{
 			name:   "path with number prefix",
-			app:    "0ignite/cli",
+			app:    "0Source-Protocol-Cosmos/cli",
 			module: "test",
 			want:   "_0ignite.cli.test",
 		},
 		{
 			name:   "path with number prefix and dash",
-			app:    "0ignite/cli",
+			app:    "0Source-Protocol-Cosmos/cli",
 			module: "test",
 			want:   "_0ignite.cli.test",
 		},

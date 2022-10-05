@@ -8,11 +8,11 @@ import (
 
 	"github.com/iancoleman/strcase"
 
-	"github.com/ignite/cli/ignite/pkg/cache"
-	"github.com/ignite/cli/ignite/pkg/cosmosanalysis/module"
-	"github.com/ignite/cli/ignite/pkg/dirchange"
-	swaggercombine "github.com/ignite/cli/ignite/pkg/nodetime/programs/swagger-combine"
-	"github.com/ignite/cli/ignite/pkg/protoc"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cache"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosanalysis/module"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/dirchange"
+	swaggercombine "github.com/Source-Protocol-Cosmos/cli/ignite/pkg/nodetime/programs/swagger-combine"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/protoc"
 )
 
 var openAPIOut = []string{

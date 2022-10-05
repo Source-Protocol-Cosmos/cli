@@ -1,10 +1,10 @@
 package networkchain
 
 import (
-	"github.com/ignite/cli/ignite/chainconfig"
-	"github.com/ignite/cli/ignite/pkg/checksum"
-	"github.com/ignite/cli/ignite/pkg/confile"
-	"github.com/ignite/cli/ignite/pkg/xfilepath"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/chainconfig"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/checksum"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/confile"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xfilepath"
 )
 
 const (

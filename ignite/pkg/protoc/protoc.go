@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/exec"
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	"github.com/ignite/cli/ignite/pkg/localfs"
-	"github.com/ignite/cli/ignite/pkg/protoanalysis"
-	"github.com/ignite/cli/ignite/pkg/protoc/data"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/exec"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/localfs"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/protoanalysis"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/protoc/data"
 )
 
 // Option configures Generate configs.

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	envtest "github.com/ignite/cli/integration"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	envtest "github.com/Source-Protocol-Cosmos/cli/integration"
 )
 
 func TestCreateMapWithStargate(t *testing.T) {

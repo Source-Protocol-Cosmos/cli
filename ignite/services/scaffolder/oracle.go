@@ -6,14 +6,14 @@ import (
 
 	"github.com/gobuffalo/genny"
 
-	"github.com/ignite/cli/ignite/pkg/cache"
-	"github.com/ignite/cli/ignite/pkg/cmdrunner"
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	"github.com/ignite/cli/ignite/pkg/gocmd"
-	"github.com/ignite/cli/ignite/pkg/multiformatname"
-	"github.com/ignite/cli/ignite/pkg/placeholder"
-	"github.com/ignite/cli/ignite/pkg/xgenny"
-	"github.com/ignite/cli/ignite/templates/ibc"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cache"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gocmd"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/multiformatname"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/placeholder"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xgenny"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/ibc"
 )
 
 const (

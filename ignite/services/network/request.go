@@ -6,8 +6,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	launchtypes "github.com/tendermint/spn/x/launch/types"
 
-	"github.com/ignite/cli/ignite/pkg/events"
-	"github.com/ignite/cli/ignite/services/network/networktypes"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/events"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networktypes"
 )
 
 // Reviewal keeps a request's reviewal.

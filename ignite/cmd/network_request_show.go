@@ -6,9 +6,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/ignite/cli/ignite/pkg/cliui"
-	"github.com/ignite/cli/ignite/pkg/yaml"
-	"github.com/ignite/cli/ignite/services/network"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/yaml"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network"
 )
 
 // NewNetworkRequestShow creates a new request show command to show

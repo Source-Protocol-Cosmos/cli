@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/ignite/cli/ignite/chainconfig"
-	"github.com/ignite/cli/ignite/pkg/availableport"
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	"github.com/ignite/cli/ignite/pkg/gocmd"
-	"github.com/ignite/cli/ignite/pkg/xurl"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/chainconfig"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/availableport"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gocmd"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xurl"
 )
 
 const ServeTimeout = time.Minute * 15

@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ignite/cli/ignite/pkg/xfilepath"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xfilepath"
 )
 
 func TestJoin(t *testing.T) {

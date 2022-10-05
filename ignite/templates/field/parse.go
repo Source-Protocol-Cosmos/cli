@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ignite/cli/ignite/pkg/multiformatname"
-	"github.com/ignite/cli/ignite/templates/field/datatype"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/multiformatname"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/field/datatype"
 )
 
 // validateField validates the field Name and type, and checks the name is not forbidden by Ignite CLI

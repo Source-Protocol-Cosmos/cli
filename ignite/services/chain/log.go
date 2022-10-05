@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ignite/cli/ignite/pkg/lineprefixer"
-	"github.com/ignite/cli/ignite/pkg/prefixgen"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/lineprefixer"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/prefixgen"
 )
 
 // prefixes holds prefix configuration for logs messages.

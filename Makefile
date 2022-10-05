@@ -4,8 +4,8 @@
 PROJECT_NAME = ignite
 DATE := $(shell date '+%Y-%m-%dT%H:%M:%S')
 HEAD = $(shell git rev-parse HEAD)
-LD_FLAGS = -X github.com/ignite/cli/ignite/version.Head='$(HEAD)' \
-	-X github.com/ignite/cli/ignite/version.Date='$(DATE)'
+LD_FLAGS = -X github.com/Source-Protocol-Cosmos/cli/ignite/version.Head='$(HEAD)' \
+	-X github.com/Source-Protocol-Cosmos/cli/ignite/version.Date='$(DATE)'
 BUILD_FLAGS = -mod=readonly -ldflags='$(LD_FLAGS)'
 BUILD_FOLDER = ./dist
 
@@ -45,7 +45,7 @@ govet:
 format:
 	@echo Formatting...
 	@go run mvdan.cc/gofumpt -w .
-	@go run golang.org/x/tools/cmd/goimports -w -local github.com/ignite/cli .
+	@go run golang.org/x/tools/cmd/goimports -w -local github.com/Source-Protocol-Cosmos/cli .
 
 ## lint: Run Golang CI Lint.
 lint:

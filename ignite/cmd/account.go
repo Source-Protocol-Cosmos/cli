@@ -6,9 +6,9 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/ignite/cli/ignite/pkg/cliui/cliquiz"
-	"github.com/ignite/cli/ignite/pkg/cliui/entrywriter"
-	"github.com/ignite/cli/ignite/pkg/cosmosaccount"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui/cliquiz"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui/entrywriter"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosaccount"
 )
 
 const (

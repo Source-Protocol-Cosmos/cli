@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ignite/cli/ignite/pkg/cmdrunner"
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
 )
 
 type execOptions struct {

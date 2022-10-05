@@ -8,7 +8,7 @@ import (
 	"github.com/gobuffalo/plush"
 	"github.com/gobuffalo/plushgen"
 
-	"github.com/ignite/cli/ignite/templates/field/plushhelpers"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/field/plushhelpers"
 )
 
 //go:embed stargate/* stargate/**/*

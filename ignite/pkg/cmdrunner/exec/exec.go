@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ignite/cli/ignite/pkg/cmdrunner"
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
 )
 
 // ExitError is an alias to exec.ExitError

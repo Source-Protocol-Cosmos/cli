@@ -12,9 +12,9 @@ import (
 	rewardtypes "github.com/tendermint/spn/x/reward/types"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ignite/cli/ignite/pkg/cosmoserror"
-	"github.com/ignite/cli/ignite/pkg/events"
-	"github.com/ignite/cli/ignite/services/network/networktypes"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmoserror"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/events"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networktypes"
 )
 
 // ErrObjectNotFound is returned when the query returns a not found error.

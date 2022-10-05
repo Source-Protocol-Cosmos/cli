@@ -10,14 +10,14 @@ import (
 	"github.com/gobuffalo/plush"
 	"github.com/gobuffalo/plushgen"
 
-	"github.com/ignite/cli/ignite/pkg/multiformatname"
-	"github.com/ignite/cli/ignite/pkg/placeholder"
-	"github.com/ignite/cli/ignite/pkg/xgenny"
-	"github.com/ignite/cli/ignite/pkg/xstrings"
-	"github.com/ignite/cli/ignite/templates/field"
-	"github.com/ignite/cli/ignite/templates/field/plushhelpers"
-	"github.com/ignite/cli/ignite/templates/module"
-	"github.com/ignite/cli/ignite/templates/testutil"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/multiformatname"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/placeholder"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xgenny"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xstrings"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/field"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/field/plushhelpers"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/module"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/testutil"
 )
 
 var (

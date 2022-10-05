@@ -5,7 +5,7 @@ import (
 
 	"github.com/gobuffalo/genny"
 
-	"github.com/ignite/cli/ignite/pkg/xgenny"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xgenny"
 )
 
 //go:embed stargate/* stargate/**/*

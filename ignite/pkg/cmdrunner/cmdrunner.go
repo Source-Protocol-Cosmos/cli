@@ -10,8 +10,8 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	"github.com/ignite/cli/ignite/pkg/goenv"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/goenv"
 )
 
 // Runner is an object to run commands

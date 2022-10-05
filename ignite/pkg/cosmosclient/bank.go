@@ -7,7 +7,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/query"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/ignite/cli/ignite/pkg/cosmosaccount"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosaccount"
 )
 
 func (c Client) BankBalances(ctx context.Context, address string, pagination *query.PageRequest) (sdk.Coins, error) {

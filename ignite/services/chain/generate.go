@@ -6,9 +6,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ignite/cli/ignite/pkg/cache"
-	"github.com/ignite/cli/ignite/pkg/cosmosanalysis/module"
-	"github.com/ignite/cli/ignite/pkg/cosmosgen"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cache"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosanalysis/module"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosgen"
 )
 
 const (

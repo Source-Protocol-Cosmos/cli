@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ignite/cli/ignite/version"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/version"
 )
 
 // NewVersion creates a new version command to show the Ignite CLI version.

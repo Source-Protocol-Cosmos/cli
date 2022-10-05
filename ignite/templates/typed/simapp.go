@@ -3,8 +3,8 @@ package typed
 import (
 	"fmt"
 
-	"github.com/ignite/cli/ignite/pkg/multiformatname"
-	"github.com/ignite/cli/ignite/pkg/placeholder"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/multiformatname"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/placeholder"
 )
 
 func ModuleSimulationMsgModify(

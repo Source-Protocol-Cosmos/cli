@@ -9,7 +9,7 @@ import (
 
 	_ "embed"
 
-	"github.com/ignite/cli/ignite/pkg/cosmosanalysis/app"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosanalysis/app"
 )
 
 var (

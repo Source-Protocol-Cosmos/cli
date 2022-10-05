@@ -13,17 +13,17 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/ignite/cli/ignite/chainconfig"
-	"github.com/ignite/cli/ignite/pkg/cache"
-	"github.com/ignite/cli/ignite/pkg/cliui"
-	"github.com/ignite/cli/ignite/pkg/cosmosaccount"
-	"github.com/ignite/cli/ignite/pkg/cosmosver"
-	"github.com/ignite/cli/ignite/pkg/gitpod"
-	"github.com/ignite/cli/ignite/pkg/goenv"
-	"github.com/ignite/cli/ignite/pkg/xgenny"
-	"github.com/ignite/cli/ignite/services/chain"
-	"github.com/ignite/cli/ignite/services/scaffolder"
-	"github.com/ignite/cli/ignite/version"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/chainconfig"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cache"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosaccount"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosver"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gitpod"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/goenv"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xgenny"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/chain"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/scaffolder"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/version"
 )
 
 const (

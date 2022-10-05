@@ -10,11 +10,11 @@ import (
 	"github.com/ghodss/yaml"
 	"github.com/pkg/errors"
 
-	"github.com/ignite/cli/ignite/pkg/chaincmd"
-	"github.com/ignite/cli/ignite/pkg/cmdrunner"
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	"github.com/ignite/cli/ignite/pkg/lineprefixer"
-	"github.com/ignite/cli/ignite/pkg/truncatedbuffer"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/chaincmd"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/lineprefixer"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/truncatedbuffer"
 )
 
 // Runner provides a high level access to a blockchain's commands.

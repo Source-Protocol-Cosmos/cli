@@ -9,13 +9,13 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ignite/cli/ignite/pkg/cache"
-	"github.com/ignite/cli/ignite/pkg/cosmosanalysis/module"
-	"github.com/ignite/cli/ignite/pkg/dirchange"
-	"github.com/ignite/cli/ignite/pkg/gomodulepath"
-	"github.com/ignite/cli/ignite/pkg/nodetime/programs/sta"
-	tsproto "github.com/ignite/cli/ignite/pkg/nodetime/programs/ts-proto"
-	"github.com/ignite/cli/ignite/pkg/protoc"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cache"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosanalysis/module"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/dirchange"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gomodulepath"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/nodetime/programs/sta"
+	tsproto "github.com/Source-Protocol-Cosmos/cli/ignite/pkg/nodetime/programs/ts-proto"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/protoc"
 )
 
 var (

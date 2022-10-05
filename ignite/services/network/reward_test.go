@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 	rewardtypes "github.com/tendermint/spn/x/reward/types"
 
-	"github.com/ignite/cli/ignite/services/network/networktypes"
-	"github.com/ignite/cli/ignite/services/network/testutil"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networktypes"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/testutil"
 )
 
 func TestSetReward(t *testing.T) {

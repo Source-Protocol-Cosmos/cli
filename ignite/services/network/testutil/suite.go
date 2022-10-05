@@ -5,7 +5,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 
-	"github.com/ignite/cli/ignite/services/network/mocks"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/mocks"
 )
 
 // Suite is a mocks container, used to write less code for tests setup

@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ignite/cli/ignite/pkg/cliui/clispinner"
-	"github.com/ignite/cli/ignite/services/chain"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui/clispinner"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/chain"
 )
 
 func NewGenerateGo() *cobra.Command {

@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/ignite/cli/ignite/pkg/chaincmd"
-	"github.com/ignite/cli/ignite/pkg/cliui/colors"
-	"github.com/ignite/cli/ignite/services/chain"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/chaincmd"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cliui/colors"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/chain"
 )
 
 const (

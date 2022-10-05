@@ -13,12 +13,12 @@ import (
 	vue "github.com/ignite/web"
 	"github.com/tendermint/flutter/v2"
 
-	"github.com/ignite/cli/ignite/pkg/cache"
-	"github.com/ignite/cli/ignite/pkg/gomodulepath"
-	"github.com/ignite/cli/ignite/pkg/localfs"
-	"github.com/ignite/cli/ignite/pkg/placeholder"
-	"github.com/ignite/cli/ignite/templates/app"
-	modulecreate "github.com/ignite/cli/ignite/templates/module/create"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cache"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gomodulepath"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/localfs"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/placeholder"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/app"
+	modulecreate "github.com/Source-Protocol-Cosmos/cli/ignite/templates/module/create"
 )
 
 var (

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ignite/cli/ignite/pkg/cache"
-	"github.com/ignite/cli/ignite/pkg/cosmosutil"
-	"github.com/ignite/cli/ignite/pkg/events"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cache"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosutil"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/events"
 )
 
 // Init initializes blockchain by building the binaries and running the init command and
@@ -88,7 +88,7 @@ func (c *Chain) initGenesis(ctx context.Context) error {
 			return err
 		}
 
-		// TODO: use validator moniker https://github.com/ignite/cli/issues/1834
+		// TODO: use validator moniker https://github.com/Source-Protocol-Cosmos/cli/issues/1834
 		if err := cmd.Init(ctx, "moniker"); err != nil {
 			return err
 		}

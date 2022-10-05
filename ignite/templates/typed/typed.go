@@ -6,10 +6,10 @@ import (
 	"github.com/gobuffalo/plush"
 	"github.com/gobuffalo/plushgen"
 
-	"github.com/ignite/cli/ignite/pkg/gomodulepath"
-	"github.com/ignite/cli/ignite/templates/field/plushhelpers"
-	"github.com/ignite/cli/ignite/templates/module"
-	"github.com/ignite/cli/ignite/templates/testutil"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gomodulepath"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/field/plushhelpers"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/module"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/testutil"
 )
 
 func Box(box packd.Walker, opts *Options, g *genny.Generator) error {

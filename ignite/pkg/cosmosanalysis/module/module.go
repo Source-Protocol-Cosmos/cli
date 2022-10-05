@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ignite/cli/ignite/pkg/cosmosanalysis"
-	"github.com/ignite/cli/ignite/pkg/cosmosanalysis/app"
-	"github.com/ignite/cli/ignite/pkg/gomodule"
-	"github.com/ignite/cli/ignite/pkg/protoanalysis"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosanalysis"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosanalysis/app"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gomodule"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/protoanalysis"
 )
 
 // Msgs is a module import path-sdk msgs pair.

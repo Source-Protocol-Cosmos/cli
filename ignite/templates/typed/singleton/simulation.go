@@ -5,8 +5,8 @@ import (
 
 	"github.com/gobuffalo/genny"
 
-	"github.com/ignite/cli/ignite/pkg/placeholder"
-	"github.com/ignite/cli/ignite/templates/typed"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/placeholder"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/typed"
 )
 
 func moduleSimulationModify(replacer placeholder.Replacer, opts *typed.Options) genny.RunFn {

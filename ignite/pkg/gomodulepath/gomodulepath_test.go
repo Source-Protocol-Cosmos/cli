@@ -128,8 +128,8 @@ func TestExtractAppPath(t *testing.T) {
 	}{
 		{
 			name: "github uri",
-			path: "github.com/ignite/cli",
-			want: "ignite/cli",
+			path: "github.com/Source-Protocol-Cosmos/cli",
+			want: "Source-Protocol-Cosmos/cli",
 		},
 		{
 			name: "short uri",
@@ -138,8 +138,8 @@ func TestExtractAppPath(t *testing.T) {
 		},
 		{
 			name: "long uri",
-			path: "domain.com/a/b/c/ignite/cli",
-			want: "ignite/cli",
+			path: "domain.com/a/b/c/Source-Protocol-Cosmos/cli",
+			want: "Source-Protocol-Cosmos/cli",
 		},
 		{
 			name: "name",
@@ -148,13 +148,13 @@ func TestExtractAppPath(t *testing.T) {
 		},
 		{
 			name: "path",
-			path: "ignite/cli",
-			want: "ignite/cli",
+			path: "Source-Protocol-Cosmos/cli",
+			want: "Source-Protocol-Cosmos/cli",
 		},
 		{
 			name: "long path",
-			path: "a/b/c/ignite/cli",
-			want: "ignite/cli",
+			path: "a/b/c/Source-Protocol-Cosmos/cli",
+			want: "Source-Protocol-Cosmos/cli",
 		},
 		{
 			name: "empty",
@@ -171,11 +171,11 @@ func TestExtractAppPath(t *testing.T) {
 }
 
 func TestValidateURIPath(t *testing.T) {
-	require.NoError(t, validateURIPath("github.com/ignite/cli"))
+	require.NoError(t, validateURIPath("github.com/Source-Protocol-Cosmos/cli"))
 }
 
 func TestValidateURIPathWithInvalidPath(t *testing.T) {
-	require.Error(t, validateURIPath("github/ignite/cli"))
+	require.Error(t, validateURIPath("github/Source-Protocol-Cosmos/cli"))
 }
 
 func TestValidateNamePath(t *testing.T) {

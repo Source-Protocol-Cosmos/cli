@@ -25,7 +25,7 @@ const sidebars = {
         {
           type: "link",
           label: "Ignite CLI on Github",
-          href: "https://github.com/ignite/cli",
+          href: "https://github.com/Source-Protocol-Cosmos/cli",
         },
         {
           type: "link",

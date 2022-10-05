@@ -11,12 +11,12 @@ import (
 	"github.com/pelletier/go-toml"
 	"github.com/pkg/errors"
 
-	"github.com/ignite/cli/ignite/pkg/availableport"
-	"github.com/ignite/cli/ignite/pkg/cache"
-	"github.com/ignite/cli/ignite/pkg/events"
-	"github.com/ignite/cli/ignite/pkg/httpstatuschecker"
-	"github.com/ignite/cli/ignite/pkg/xurl"
-	"github.com/ignite/cli/ignite/services/network/networktypes"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/availableport"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cache"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/events"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/httpstatuschecker"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xurl"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networktypes"
 )
 
 const (

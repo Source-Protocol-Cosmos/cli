@@ -6,10 +6,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ignite/cli/ignite/pkg/cmdrunner"
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	"github.com/ignite/cli/ignite/pkg/nodetime"
-	"github.com/ignite/cli/ignite/pkg/protoc"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/nodetime"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/protoc"
 )
 
 // NewTools returns a command where various tools (binaries) are attached as sub commands

@@ -5,8 +5,8 @@ package other_components_test
 import (
 	"testing"
 
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	envtest "github.com/ignite/cli/integration"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	envtest "github.com/Source-Protocol-Cosmos/cli/integration"
 )
 
 func TestGenerateAnAppWithQuery(t *testing.T) {

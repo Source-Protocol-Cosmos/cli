@@ -5,8 +5,8 @@ import (
 
 	"github.com/gobuffalo/genny"
 
-	"github.com/ignite/cli/ignite/pkg/xgenny"
-	"github.com/ignite/cli/ignite/templates/typed"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xgenny"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/typed"
 )
 
 //go:embed stargate/component/* stargate/component/**/*

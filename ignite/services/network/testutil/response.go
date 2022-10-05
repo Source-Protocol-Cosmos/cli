@@ -8,7 +8,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"google.golang.org/protobuf/runtime/protoiface"
 
-	"github.com/ignite/cli/ignite/pkg/cosmosclient"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosclient"
 )
 
 // NewResponse creates cosmosclient.Response object from proto struct

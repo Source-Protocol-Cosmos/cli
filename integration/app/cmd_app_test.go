@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	envtest "github.com/ignite/cli/integration"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	envtest "github.com/Source-Protocol-Cosmos/cli/integration"
 )
 
 func TestGenerateAnApp(t *testing.T) {

@@ -15,10 +15,10 @@ import (
 	launchtypes "github.com/tendermint/spn/x/launch/types"
 	profiletypes "github.com/tendermint/spn/x/profile/types"
 
-	"github.com/ignite/cli/ignite/pkg/cosmoserror"
-	"github.com/ignite/cli/ignite/pkg/cosmosutil"
-	"github.com/ignite/cli/ignite/services/network/networktypes"
-	"github.com/ignite/cli/ignite/services/network/testutil"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmoserror"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosutil"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networktypes"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/testutil"
 )
 
 func startGenesisTestServer(genesis cosmosutil.ChainGenesis) *httptest.Server {

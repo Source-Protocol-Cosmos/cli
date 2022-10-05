@@ -6,7 +6,7 @@ import (
 	"github.com/gookit/color"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ignite/cli/ignite/pkg/events"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/events"
 )
 
 func TestBusSend(t *testing.T) {

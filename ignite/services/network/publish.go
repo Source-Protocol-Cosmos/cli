@@ -9,9 +9,9 @@ import (
 	launchtypes "github.com/tendermint/spn/x/launch/types"
 	profiletypes "github.com/tendermint/spn/x/profile/types"
 
-	"github.com/ignite/cli/ignite/pkg/cosmosutil"
-	"github.com/ignite/cli/ignite/pkg/events"
-	"github.com/ignite/cli/ignite/services/network/networktypes"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cosmosutil"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/events"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/services/network/networktypes"
 )
 
 // publishOptions holds info about how to create a chain.

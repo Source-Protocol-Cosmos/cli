@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
 )
 
 var (

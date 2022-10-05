@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/step"
-	"github.com/ignite/cli/ignite/pkg/gocmd"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/step"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gocmd"
 )
 
 const (

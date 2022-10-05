@@ -8,12 +8,12 @@ import (
 
 	"github.com/gobuffalo/genny"
 
-	"github.com/ignite/cli/ignite/pkg/gomodulepath"
-	"github.com/ignite/cli/ignite/pkg/placeholder"
-	"github.com/ignite/cli/ignite/pkg/xgenny"
-	"github.com/ignite/cli/ignite/templates/field/datatype"
-	"github.com/ignite/cli/ignite/templates/module"
-	"github.com/ignite/cli/ignite/templates/typed"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/gomodulepath"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/placeholder"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/xgenny"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/field/datatype"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/module"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/templates/typed"
 )
 
 var (

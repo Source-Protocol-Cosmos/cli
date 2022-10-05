@@ -5,8 +5,8 @@ import (
 	"context"
 	"path/filepath"
 
-	"github.com/ignite/cli/ignite/pkg/cmdrunner/exec"
-	"github.com/ignite/cli/ignite/pkg/nodetime"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/cmdrunner/exec"
+	"github.com/Source-Protocol-Cosmos/cli/ignite/pkg/nodetime"
 )
 
 // Option configures Generate configs.
