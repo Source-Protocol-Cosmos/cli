@@ -1,7 +1,7 @@
 image:
   file: .gitpod.Dockerfile
 
-checkoutLocation: "ignite"
+checkoutLocation: "source"
 
 workspaceLocation: "./ignite/.gitpod"
 
