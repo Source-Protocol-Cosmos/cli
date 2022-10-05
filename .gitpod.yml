@@ -1,9 +1,9 @@
 image:
   file: .gitpod.Dockerfile
 
-checkoutLocation: "Source-Protocol-Cosmos"
+checkoutLocation: "ignite"
 
-workspaceLocation: "./Source-Protocol-Cosmos/.gitpod"
+workspaceLocation: "./ignite/.gitpod"
 
 tasks:
   - name: Open the Readme
@@ -14,7 +14,7 @@ tasks:
     init: |
       ##
       ## install Ignite CLI
-      make -C /workspace/Source-Protocol-Cosmos install
+      make -C /workspace/ignite install
 
     command: |
       ##
