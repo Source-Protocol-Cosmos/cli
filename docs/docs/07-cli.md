@@ -297,7 +297,9 @@ chain.
 **Options**
 
 ```
-  -h, --help   help for chain
+  -c, --config string   ignite config file (default: ./config.yml)
+  -h, --help            help for chain
+  -y, --yes             answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -389,6 +391,13 @@ ignite chain build [flags]
   -v, --verbose                   verbose output
 ```
 
+**Options inherited from parent commands**
+
+```
+  -c, --config string   ignite config file (default: ./config.yml)
+  -y, --yes             answers interactive yes/no questions with yes
+```
+
 **SEE ALSO**
 
 * [ignite chain](#ignite-chain)	 - Build, initialize and start a blockchain node or perform other actions on the blockchain
@@ -409,6 +418,13 @@ ignite chain faucet [address] [coin<,...>] [flags]
       --home string   home directory used for blockchains
   -p, --path string   path of the app (default ".")
   -v, --verbose       Verbose output
+```
+
+**Options inherited from parent commands**
+
+```
+  -c, --config string   ignite config file (default: ./config.yml)
+  -y, --yes             answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -499,6 +515,13 @@ ignite chain init [flags]
       --skip-proto           skip file generation from proto
 ```
 
+**Options inherited from parent commands**
+
+```
+  -c, --config string   ignite config file (default: ./config.yml)
+  -y, --yes             answers interactive yes/no questions with yes
+```
+
 **SEE ALSO**
 
 * [ignite chain](#ignite-chain)	 - Build, initialize and start a blockchain node or perform other actions on the blockchain
@@ -553,7 +576,6 @@ ignite chain serve [flags]
 ```
       --check-dependencies   verify that cached dependencies have not been modified since they were downloaded
       --clear-cache          clear the build cache (advanced)
-  -c, --config string        Ignite config file (default: ./config.yml)
   -f, --force-reset          Force reset of the app state on start and every source change
   -h, --help                 help for serve
       --home string          home directory used for blockchains
@@ -562,6 +584,13 @@ ignite chain serve [flags]
   -r, --reset-once           Reset of the app state on first start
       --skip-proto           skip file generation from proto
   -v, --verbose              Verbose output
+```
+
+**Options inherited from parent commands**
+
+```
+  -c, --config string   ignite config file (default: ./config.yml)
+  -y, --yes             answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -601,6 +630,13 @@ ignite chain simulate [flags]
       --seed int                  simulation random seed (default 42)
       --simulateEveryOperation    run slow invariants every operation
   -v, --verbose                   verbose log output
+```
+
+**Options inherited from parent commands**
+
+```
+  -c, --config string   ignite config file (default: ./config.yml)
+  -y, --yes             answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -851,7 +887,7 @@ ignite generate dart [flags]
 
 ```
   -h, --help   help for dart
-  -y, --yes    Answers interactive yes/no questions with yes
+  -y, --yes    answers interactive yes/no questions with yes
 ```
 
 **Options inherited from parent commands**
@@ -878,7 +914,7 @@ ignite generate openapi [flags]
 
 ```
   -h, --help   help for openapi
-  -y, --yes    Answers interactive yes/no questions with yes
+  -y, --yes    answers interactive yes/no questions with yes
 ```
 
 **Options inherited from parent commands**
@@ -905,7 +941,7 @@ ignite generate proto-go [flags]
 
 ```
   -h, --help   help for proto-go
-  -y, --yes    Answers interactive yes/no questions with yes
+  -y, --yes    answers interactive yes/no questions with yes
 ```
 
 **Options inherited from parent commands**
@@ -931,9 +967,9 @@ ignite generate ts-client [flags]
 **Options**
 
 ```
-  -h, --help                help for ts-client
-      --proto-all-modules   enables proto code generation for 3rd party modules used in your chain
-  -y, --yes                 Answers interactive yes/no questions with yes
+  -h, --help            help for ts-client
+  -o, --output string   typescript client output path
+  -y, --yes             answers interactive yes/no questions with yes
 ```
 
 **Options inherited from parent commands**
@@ -961,7 +997,7 @@ ignite generate vuex [flags]
 ```
   -h, --help                help for vuex
       --proto-all-modules   enables proto code generation for 3rd party modules used in your chain
-  -y, --yes                 Answers interactive yes/no questions with yes
+  -y, --yes                 answers interactive yes/no questions with yes
 ```
 
 **Options inherited from parent commands**
@@ -1107,7 +1143,6 @@ Transactions subcommands
 
 ```
       --address-prefix string    Account address prefix (default "cosmos")
-      --broadcast-mode string    Transaction broadcasting mode (sync|async|block), use sync if you encounter timeouts (default "block")
       --fees string              Fees to pay along with transaction; eg: 10uatom
       --gas string               gas limit to set per-transaction; set to "auto" to calculate sufficient gas automatically (default "auto")
       --gas-prices string        Gas prices in decimal format to determine the transaction fee (e.g. 0.1uatom)
@@ -1144,7 +1179,6 @@ Bank transaction subcommands
 
 ```
       --address-prefix string    Account address prefix (default "cosmos")
-      --broadcast-mode string    Transaction broadcasting mode (sync|async|block), use sync if you encounter timeouts (default "block")
       --fees string              Fees to pay along with transaction; eg: 10uatom
       --gas string               gas limit to set per-transaction; set to "auto" to calculate sufficient gas automatically (default "auto")
       --gas-prices string        Gas prices in decimal format to determine the transaction fee (e.g. 0.1uatom)
@@ -1179,7 +1213,6 @@ ignite node tx bank send [from_account_or_address] [to_account_or_address] [amou
 
 ```
       --address-prefix string    Account address prefix (default "cosmos")
-      --broadcast-mode string    Transaction broadcasting mode (sync|async|block), use sync if you encounter timeouts (default "block")
       --fees string              Fees to pay along with transaction; eg: 10uatom
       --gas string               gas limit to set per-transaction; set to "auto" to calculate sufficient gas automatically (default "auto")
       --gas-prices string        Gas prices in decimal format to determine the transaction fee (e.g. 0.1uatom)
@@ -1379,7 +1412,7 @@ ignite scaffold band [queryName] --module [moduleName] [flags]
       --module string   IBC Module to add the packet into
   -p, --path string     path of the app (default ".")
       --signer string   Label for the message signer (default: creator)
-  -y, --yes             Answers interactive yes/no questions with yes
+  -y, --yes             answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -1467,7 +1500,7 @@ ignite scaffold flutter [flags]
 ```
   -h, --help          help for flutter
   -p, --path string   path to scaffold content of the Flutter app (default "./flutter")
-  -y, --yes           Answers interactive yes/no questions with yes
+  -y, --yes           answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -1571,7 +1604,7 @@ ignite scaffold list NAME [field]... [flags]
       --no-simulation   Disable CRUD simulation scaffolding
   -p, --path string     path of the app (default ".")
       --signer string   Label for the message signer (default: creator)
-  -y, --yes             Answers interactive yes/no questions with yes
+  -y, --yes             answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -1641,7 +1674,7 @@ ignite scaffold map NAME [field]... [flags]
       --no-simulation   Disable CRUD simulation scaffolding
   -p, --path string     path of the app (default ".")
       --signer string   Label for the message signer (default: creator)
-  -y, --yes             Answers interactive yes/no questions with yes
+  -y, --yes             answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -1715,7 +1748,7 @@ ignite scaffold message [name] [field1] [field2] ... [flags]
   -p, --path string        path of the app (default ".")
   -r, --response strings   Response fields
       --signer string      Label for the message signer (default: creator)
-  -y, --yes                Answers interactive yes/no questions with yes
+  -y, --yes                answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -1804,7 +1837,7 @@ ignite scaffold module [name] [flags]
       --params strings         scaffold module params
   -p, --path string            path of the app (default ".")
       --require-registration   if true command will fail if module can't be registered
-  -y, --yes                    Answers interactive yes/no questions with yes
+  -y, --yes                    answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -1834,7 +1867,7 @@ ignite scaffold packet [packetName] [field1] [field2] ... --module [moduleName] 
       --no-message      Disable send message scaffolding
   -p, --path string     path of the app (default ".")
       --signer string   Label for the message signer (default: creator)
-  -y, --yes             Answers interactive yes/no questions with yes
+  -y, --yes             answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -1860,7 +1893,7 @@ ignite scaffold query [name] [request_field1] [request_field2] ... [flags]
       --paginated          Define if the request can be paginated
   -p, --path string        path of the app (default ".")
   -r, --response strings   Response fields
-  -y, --yes                Answers interactive yes/no questions with yes
+  -y, --yes                answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -1886,7 +1919,7 @@ ignite scaffold single NAME [field]... [flags]
       --no-simulation   Disable CRUD simulation scaffolding
   -p, --path string     path of the app (default ".")
       --signer string   Label for the message signer (default: creator)
-  -y, --yes             Answers interactive yes/no questions with yes
+  -y, --yes             answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -1912,7 +1945,7 @@ ignite scaffold type NAME [field]... [flags]
       --no-simulation   Disable CRUD simulation scaffolding
   -p, --path string     path of the app (default ".")
       --signer string   Label for the message signer (default: creator)
-  -y, --yes             Answers interactive yes/no questions with yes
+  -y, --yes             answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
@@ -1933,7 +1966,7 @@ ignite scaffold vue [flags]
 ```
   -h, --help          help for vue
   -p, --path string   path to scaffold content of the Vue.js app (default "./vue")
-  -y, --yes           Answers interactive yes/no questions with yes
+  -y, --yes           answers interactive yes/no questions with yes
 ```
 
 **SEE ALSO**
